@@ -47,9 +47,9 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Test for faliure of function add")
-    void failureTestAdd() {
-        assertEquals(11, calc.add(5, 5), "5 + 5 should not be 11");
+    @DisplayName("Test for faliure of function add (Fixed)")
+    void notFailureTestAdd() {
+        assertEquals(10, calc.add(5, 5), "5 + 5 should not be 11");
     }
 
 }
